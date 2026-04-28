@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "22a5b188d4bdc395",
+    "type": "split",
+    "children": [
+      {
+        "id": "be3c3a0d97d2ff6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f661a462ec56b534",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "592a0ab455ab3cab",
+    "type": "split",
+    "children": [
+      {
+        "id": "41d4dd087a7aca8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c718a0bcccc9ef1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "cb0514e112067581",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "c30ef14eb04332d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 419.5
+  },
+  "right": {
+    "id": "921d3c0f83254771",
+    "type": "split",
+    "children": [
+      {
+        "id": "860cd69362c07dc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5d3ace033017cdf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "2f790a6e3a676d3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "3956f28f5f861016",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "46e9f098534ec103",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "6e6c9d5ac1575857",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          },
+          {
+            "id": "f0550d4cd5d87826",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f661a462ec56b534",
+  "lastOpenFiles": [
+    "README.md",
+    "wiki/투자전략/피터린치_6가지분류.md",
+    "무제.base",
+    "Excalidraw/Drawing 2026-04-28 20.37.48.excalidraw.md",
+    "wiki/투자전략/마법공식.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "CLAUDE.md",
+    "wiki/거시경제/매크로_인과관계_매뉴얼.md",
+    "raw_sources/macro_causality_manual.md",
+    "wiki/log.md.tmp.9584.1777374195192",
+    "wiki/index.md.tmp.9584.1777374178766",
+    "wiki/거시경제/매크로_인과관계_매뉴얼.md.tmp.9584.1777374165717",
+    "wiki/기술적분석/TA_Index.md",
+    "wiki/기술적분석/MACD.md",
+    "wiki/기술적분석/이동평균선.md",
+    "wiki/기술적분석/스토캐스틱.md",
+    "wiki/기술적분석/볼린저밴드.md",
+    "wiki/기술적분석/RSI.md",
+    "wiki/기술적분석/OBV.md",
+    "raw_sources/OBV.md",
+    "wiki/log.md.tmp.9584.1777373630022",
+    "wiki/index.md.tmp.9584.1777373598421",
+    "wiki/index.md.tmp.9584.1777373581528",
+    "wiki/기술적분석/TA_Index.md.tmp.9584.1777373575010",
+    "wiki/기술적분석/OBV.md.tmp.9584.1777373523539",
+    "wiki/기술적분석/볼린저밴드.md.tmp.9584.1777373501044",
+    "raw_sources/볼린저밴드.md",
+    "raw_sources/거래량 지표.md",
+    "raw_sources/변동성 지표.md",
+    "raw_sources/RSI.md",
+    "raw_sources/모멘텀 지표.md",
+    "raw_sources/Stochastic.md",
+    "raw_sources/MACD.md",
+    "raw_sources/paper_이동평균선_C.md",
+    "raw_sources/paper_이동평균선_B.md",
+    "무제.canvas"
+  ]
+}
