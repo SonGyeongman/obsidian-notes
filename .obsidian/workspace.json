@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "be3c3a0d97d2ff6d",
+        "id": "d59419c8efd91f61",
         "type": "tabs",
         "children": [
           {
-            "id": "f661a462ec56b534",
+            "id": "abb0bdadf5ee9198",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Trading_Logs/US20210629010_20260510_2254.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "US20210629010_20260510_2254"
             }
           }
         ]
@@ -173,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 837.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,44 +192,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f661a462ec56b534",
+  "active": "f0550d4cd5d87826",
   "lastOpenFiles": [
-    "README.md",
+    "Trading_Logs/US20210629010_20260510_2316.md",
+    "Trading_Logs/US20210629010_20260510_2254.md",
+    "개발wiki/index.md",
+    "개발wiki/함수_참조.md",
+    "개발wiki/아키텍처.md",
+    "개발wiki/데이터_변수_참조.md",
+    "wiki/투자원칙/AI_자동매매_핵심원칙.md",
+    "개발wiki/개발일지/2026-05-10_펀더멘털연동.md",
+    "개발wiki/개발일지/2026-05-10_RAG개선.md",
+    "개발wiki/개발일지/2026-05-10_펀더멘털연동.md.tmp.24016.a05920b2fc3e",
+    "개발wiki/API_엔드포인트.md",
+    "개발wiki/개발일지/index.md",
+    "개발wiki/개발일지/2026-05-10_AI판단개선.md",
+    "개발wiki/개발일지/2026-05-10_AI판단개선.md.tmp.24016.adf46d13fbc5",
+    "개발wiki/개발일지/2026-05-10_RAG개선.md.tmp.24016.db7e47b2cb1b",
+    "개발wiki/개발일지/2026-05-10_개인자산조회.md",
+    "개발wiki/개발일지/2026-05-10_개인자산조회.md.tmp.24016.9ea3b6d6428f",
+    "개발wiki/개발일지/2026-05-10_지표확장.md",
+    "개발wiki/개발일지/2026-05-10_지표확장.md.tmp.24016.a59657567d17",
+    "개발wiki/개발일지/2026-04-28_초기개발.md",
+    "개발wiki/개발일지/2026-04-28_초기개발.md.tmp.24016.8b2085677e6b",
+    "2026-05-10_AI판단개선.md",
+    "2026-04-28_초기개발.md",
+    "2026-05-10_RAG개선.md",
+    "2026-05-10_개인자산조회.md",
+    "2026-05-10_지표확장.md",
+    "개발wiki/개발일지/index.md.tmp.24016.e0f8a2ef3920",
+    "개발wiki/함수_참조.md.tmp.24016.95a7fbe902b6",
+    "개발wiki/데이터_변수_참조.md.tmp.24016.15f146dc790a",
+    "개발wiki/API_엔드포인트.md.tmp.24016.0a146c7a9169",
+    "Trading_Logs/AMX0250724002_20260510_0244.md",
+    "Trading_Logs/US20161007001_20260510_0434.md",
+    "wiki/투자전략/CAN_SLIM.md",
     "wiki/투자전략/피터린치_6가지분류.md",
-    "무제.base",
-    "Excalidraw/Drawing 2026-04-28 20.37.48.excalidraw.md",
     "wiki/투자전략/마법공식.md",
-    "wiki/index.md",
-    "wiki/log.md",
-    "CLAUDE.md",
     "wiki/거시경제/매크로_인과관계_매뉴얼.md",
-    "raw_sources/macro_causality_manual.md",
-    "wiki/log.md.tmp.9584.1777374195192",
-    "wiki/index.md.tmp.9584.1777374178766",
-    "wiki/거시경제/매크로_인과관계_매뉴얼.md.tmp.9584.1777374165717",
-    "wiki/기술적분석/TA_Index.md",
-    "wiki/기술적분석/MACD.md",
-    "wiki/기술적분석/이동평균선.md",
-    "wiki/기술적분석/스토캐스틱.md",
-    "wiki/기술적분석/볼린저밴드.md",
-    "wiki/기술적분석/RSI.md",
-    "wiki/기술적분석/OBV.md",
-    "raw_sources/OBV.md",
-    "wiki/log.md.tmp.9584.1777373630022",
-    "wiki/index.md.tmp.9584.1777373598421",
-    "wiki/index.md.tmp.9584.1777373581528",
-    "wiki/기술적분석/TA_Index.md.tmp.9584.1777373575010",
-    "wiki/기술적분석/OBV.md.tmp.9584.1777373523539",
-    "wiki/기술적분석/볼린저밴드.md.tmp.9584.1777373501044",
-    "raw_sources/볼린저밴드.md",
-    "raw_sources/거래량 지표.md",
-    "raw_sources/변동성 지표.md",
-    "raw_sources/RSI.md",
-    "raw_sources/모멘텀 지표.md",
-    "raw_sources/Stochastic.md",
-    "raw_sources/MACD.md",
-    "raw_sources/paper_이동평균선_C.md",
-    "raw_sources/paper_이동평균선_B.md",
     "무제.canvas"
   ]
 }

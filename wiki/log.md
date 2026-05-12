@@ -70,3 +70,30 @@
 - 생성: `wiki/기술적분석/TA_Index.md` — 기술적 분석 총람, 4카테고리 분류 + 지표 조합 전략 3가지 + 학술 검증 요약
 - 수정: `wiki/index.md` — 기술적분석 카테고리 섹션 신설, 7개 페이지 행 추가, date 갱신
 - 특이사항: `paper_이동평균선_A.md` (12줄 stub), `paper_이동평균선_B.md`·`C.md` (본문 내용 토큰 초과로 논문 제목·저자·나의 메모만 추출) — 논문 요지는 지식 기반에서 보완하여 학술 검증 섹션 작성
+
+## [2026-05-10] refactor | RAG 룰북 감사(Audit) 기반 위험 문장 수정 — 4개 파일
+
+- **CLAUDE.md** — 규칙 7·8·9 추가: LLM 수학 연산 금지 원칙 / RAG Frontmatter 확장 기준 / 행동 지침 명령형 강제
+- **투자원칙/AI_자동매매_핵심원칙.md**
+  - frontmatter: `doc_type: rulebook`, `rag_priority: high`, `backend_fields` 추가
+  - 손절 라인: "현재가 대비 -2%~-5%" → 시스템 전달 `stop_loss_price` 필드 사용으로 교체
+  - VIX 30 이상 비중: "20~30%로 상향" → `allocation_percent` = 25 고정값으로 교체
+- **투자전략/마법공식.md**
+  - ROC 판정 기준: "압도적으로 높으면" → `` `roc_percentile` ≥ 70 ``으로 교체
+  - "LLM 종목 점수 산정 표준 절차" 테이블 → "LLM 판정 기준 (백엔드 계산값 기반)" 비교 테이블로 교체 (`roc_percentile`, `earnings_yield_percentile`, `magic_formula_rank` 필드 기반)
+- **투자전략/피터린치_6가지분류.md**
+  - PEG 계산 알고리즘 (Step 1~5 산술 지시) → `peg_ratio` 수신값 기반 판정 테이블로 교체
+  - "즉시 매도를 검토한다" → "즉시 매도를 집행한다"
+  - "수익 실현 후 재평가" → "즉시 수익 실현을 집행한다"
+- **거시경제/매크로_인과관계_매뉴얼.md**
+  - VIX 투입 비중 "20~30%" 범위 → `allocation_percent` 고정값 테이블 (30→25, 35→25, 40→50)으로 교체
+
+## [2026-05-10] ingest | 00_Trading_Principles.md.md — wiki/투자원칙/AI_자동매매_핵심원칙.md 신규 생성
+
+- 처리 파일: `00_Trading_Principles.md.md`
+- 생성: `wiki/투자원칙/AI_자동매매_핵심원칙.md` — Qwen2.5 기반 자동매매 AI의 절대 가이드라인 3원칙 정리
+  - 원칙 1 (Net Profit Rule): 왕복 비용 0.5%, 최소 순수익률 1.5% 미달 시 PASS
+  - 원칙 2 (Risk Management): 손절 -2~-5%, 손익비 최소 1.5배, 데이터 오류 즉시 관망 조건
+  - 원칙 3 (Macro Context): VIX 30 이상 시 현금 투입 비중 20~30% 상향, 횡보장 유령 신호 주의
+- 교차 참조: [[매크로_인과관계_매뉴얼]], [[TA_Index]], [[CAN_SLIM]]
+- 수정: `wiki/index.md` — 투자원칙 테이블 첫 행 추가, 출처 요약 행 추가, date 갱신

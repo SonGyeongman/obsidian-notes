@@ -5,5 +5,6 @@
   "obsidian-minimal-settings",
   "open-in-terminal",
   "shell-path-copy",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-local-rest-api"
 ]

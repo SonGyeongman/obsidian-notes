@@ -1,6 +1,6 @@
 ---
 tags: [meta, index]
-date: 2026-04-28
+date: 2026-05-10
 ---
 
 # 주식 투자 위키 목차
@@ -29,7 +29,7 @@ date: 2026-04-28
 
 | 페이지 | 요약 | 최근 업데이트 |
 |--------|------|--------------|
-| (아직 없음) | | |
+| [[AI_자동매매_핵심원칙]] | 자동매매 AI의 절대 가이드라인 — 순수익률 1.5% 룰, 손절 -2~-5%, 손익비 1.5배, VIX 30+ 대응 | 2026-05-10 |
 
 ---
 
@@ -71,3 +71,4 @@ date: 2026-04-28
 | report_peter_lynch_PEG_strategy.md | PEG 비율 원리 및 GARP 전략 | 2026-04-28 |
 | report_peter_lynch_risk_management.md | 6유형별 리스크 및 기본 분석 비율 | 2026-04-28 |
 | paper_peter_lynch_india_validation.md | 인도 BSE 100 피터 린치 모델 검증 (2005~2017, 12년) | 2026-04-28 |
+| 00_Trading_Principles.md.md | AI 자동매매 핵심 원칙 — Net Profit Rule, 리스크 관리, VIX 대응 | 2026-05-10 |
